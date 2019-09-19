@@ -2,3 +2,7 @@
 body {
   background: yellow;
 }
+  h1 {
+    color: #ff5252;
+    font-size: 40px;
+    margin: 10px 0;
