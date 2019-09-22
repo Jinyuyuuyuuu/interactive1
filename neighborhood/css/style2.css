@@ -2,3 +2,9 @@
     body {
       background: pink;
     }
+    .picbg{
+        background-size: 50% auto
+        line-height: 10;
+        background-image: url(../material/background.jpg)
+
+         }
