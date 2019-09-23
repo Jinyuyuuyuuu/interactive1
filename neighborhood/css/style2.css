@@ -75,3 +75,12 @@ img.filter:hover{
 .box{
                 width:800px;height:200px;
                 }
+.text-blockcontent {
+                  width: 960px;
+                  margin:80px auto 30px auto;
+                  width:60%;
+                  text-align: auto;
+                  font-family: 'Cardo', serif;
+                font-size: 22px;
+
+                }
