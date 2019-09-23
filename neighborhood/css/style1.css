@@ -1,6 +1,6 @@
 
 body {
-  background-image:url(“backgroundcolor.jpg”);
+  background:#FFE4E1;
     }
 .top{
     height: auto;
@@ -44,6 +44,7 @@ body {
     }
 .box{
     width:800px;height:200px;
+
     }
 .text-block {
     width: 960px;
