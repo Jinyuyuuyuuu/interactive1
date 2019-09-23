@@ -1,10 +1,77 @@
 
-    body {
+body {
       background: pink;
     }
-    .picbg{
+.picbg{
         background-size: 50% auto
         line-height: 10;
         background-image: url(../material/background.jpg)
 
          }
+.top{
+             height: auto;
+             width:100%;
+             margin-left: 0;
+             background:#CCFF99;
+             position: fixed;
+             top:0;
+             margin-bottom: 5px;
+             }
+.top ul{
+             width: auto;
+             list-style-type: none;
+             white-space:nowrap;
+             overflow: hidden;
+             margin-left: 5%;
+             padding: 0;
+             }
+.top li {
+             float:left;
+             margin-right:2%;
+             position: relative;
+             overflow: hidden;}
+
+.top li a{
+             display: block;
+             color: black;
+             text-align: center;
+             padding: 3px;
+             overflow: hidden;
+             text-decoration: none;
+             }
+.top li a:hover{
+             background-color: #33FFFF;
+             }
+img{
+                 opacity: 1;
+             }
+img.filter:hover{
+                 filter:grayscale();
+                 opacity: 0.5;
+             }
+.two-column img {
+               width: 50%;
+               height:auto;
+               float: left;
+             }
+.two-columnright img {
+              width: 40%;
+              height:auto
+              float:left;
+              }
+.text-block {
+              width: 960px;
+              margin: 20px auto 20px auto;
+              font-size: 100px;
+              font-family: 'Tangerine', cursive;
+              color: #ff5252;
+            }
+.center
+                {
+                margin:25px auto 25px auto;
+                width:60%;
+                font-family: 'Kaushan Script', cursive;
+                }
+.box{
+                width:800px;height:200px;
+                }
