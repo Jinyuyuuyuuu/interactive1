@@ -1,0 +1,58 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: red;
+}
+
+/* shapes */
+.starmain{
+         color:yellow;
+         font-size:4.95em;
+         width:45px;
+         height:45px;
+         position:relative;
+         float:left;
+         left: 40px;
+         top: 15px;
+}
+.star1{
+       color:yellow;
+       font-size:1.4em;
+       position:relative;
+       left: 85px;
+       top: 20px;
+}
+.star2{
+       color:yellow;
+       font-size:1.4em;
+       position:relative;
+       left:90px;
+       top: 40px;
+}
+.star3{
+       color:yellow;
+       font-size:1.4em;
+       position:relative;
+       top: 78px;
+       left:58px;
+}
+.star4{
+       color:yellow;
+       font-size:1.4em;
+       position:relative;
+       top: 110px;
+
+}
