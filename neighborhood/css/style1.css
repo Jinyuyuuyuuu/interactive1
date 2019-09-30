@@ -1,7 +1,7 @@
 
 body {
   background:#FFE4E1;
-  
+
     }
 .top{
     height: auto;
@@ -45,7 +45,7 @@ body {
     }
 .box{
     width:800px;height:200px;
-
+    font-family: 'Cardo', serif;
     }
 .text-block {
     width: 960px;
@@ -56,10 +56,10 @@ body {
     }
 
 .text-blockplaces{
-   font-family: 'Tangerine', cursive;
+   font-family: 'Cardo', serif;
    color: #CC0099;
    font-size: 20px;
-   font-family: 'Josefin Sans', sans-serif;
+
 }
 .text-blockcontent {
   width: 960px;
