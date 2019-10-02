@@ -23,69 +23,36 @@ body {
          font-size:8em;
          width:45px;
          height:45px;
-         position:relative;
+         position:absolute;
          float:left;
-         left: 30px;
-         top: 5px;
+         left: 44px;
+         top: -25px;
+         transform: rotate(13deg);
 }
 .heartmain{
        color:#FF1493;
        font-size:4em;
-       position:relative;
-       left: 20px;
-       top: 55px;
+       position:absolute;
+       left: 61px;
+       top: 33px;
+       transform: rotate(13deg);
 }
 .heart1{
        color:#FF1493;
        font-size:1.4em;
        position:absolute;
        left: 237px;
-       top: 93px;
+       top: 182px;
 }
-.heart2{
-       color:	yellow;
-       font-size:1.4em;
-       position:absolute;
-       left: 240px;
-       top: 125px;
-}
-.heart3{
-       color:	yellow;
-       font-size:1.4em;
-       position:absolute;
-       left: 220px;
-       top: 120px;
-}
-.heart4{
-       color:	yellow;
-       font-size:1.4em;
-       position:absolute;
-       left: 200px;
-       top: 125px;
-}
-.heart5{
-       color:	yellow;
-       font-size:1em;
-       position:absolute;
-       left: 210px;
-       top: 112px;
-}
-.heart6{
-       color:	yellow;
-       font-size:1em;
-       position:absolute;
-       left: 235px;
-       top: 112px;
-}
-.heart7{
-       color:	yellow;
-       font-size:1em;
-       position:absolute;
-       left: 223px;
-       top: 100px;
-}
+
 #contentframe{
        position:absolute;
+
+}
+#wifi{
+       color:yellow;
+       position:absolute;
+       transform: rotate(-45deg);
 
 }
 #rectangle {
