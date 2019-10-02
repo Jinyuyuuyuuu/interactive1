@@ -40,7 +40,7 @@ body {
        font-size:1.4em;
        position:absolute;
        left: 237px;
-       top: 185px;
+       top: 93px;
 }
 .heart2{
        color:	yellow;
@@ -95,4 +95,44 @@ body {
     position:absolute;
     left:400px;
     top:0;
+}
+.animation-heartpulse {
+  -webkit-animation-name: heartpulse; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: heartpulse;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes heartpulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+@keyframes heartpulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+.animation-heartblink {
+  -webkit-animation-name: heartblink; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation-name: heartblink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@-webkit-keyframes heartblink {
+  from { background-color: pink; }
+  to { background-color: red; }
+}
+
+/* Standard syntax */
+@keyframes heartblink {
+  from { background-color: pink; }
+  to { background-color: red; }
 }
