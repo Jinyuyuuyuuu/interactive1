@@ -1,20 +1,15 @@
-.menuContainer {
-    background-color: transparent;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    z-index: 10;
-    -webkit-transition: all .3s cubic-bezier(.215,.61,.355,1);
-    -moz-transition: all .3s cubic-bezier(.215,.61,.355,1);
-    -o-transition: all .3s cubic-bezier(.215,.61,.355,1);
-    -ms-transition: all .3s cubic-bezier(.215,.61,.355,1);
-    transition: all .3s cubic-bezier(.215,.61,.355,1);
-    will-change: box-shadow,background-color;
-    -webkit-transform: translateY(-300px);
-    -moz-transform: translateY(-300px);
-    -o-transform: translateY(-300px);
-    -ms-transform: translateY(-300px);
-    transform: translateY(-300px);
-  }
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.purple{color:#9F0050;}
+.w3-white{color:#000!important;background-color:#fff!important}
+
+.Florence{color:#AE00AE}
+
+.w3-display-middle{position:absolute;bottom:1%;right:30%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}

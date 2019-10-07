@@ -1,130 +1,131 @@
-
 <!DOCTYPE html>
 <html>
+<title>Neighborhood in CSS 2(inspired by W3 School's template)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-  <head>
-      <title>Neighborhood in CSS 2</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="css/style2.css">
-  </head>
-  <div id="header"></div>
+<body>
 
-  <body>
-    <!-- banner -->
-    	<div class="banner-with-text">
-    		<div class="container">
-      <!-- Nav -->
-        <nav id="menuContainer">
-          <ul class="links">
-              <li><a href="#A" >Florence cathedral></a></li>
-              <li><a href="#B">Academy of Fine arts of Florence></a></li>
-              <li><a href="#C">Flowing chocolate wall></a></li>
-              <li><a href="#D">Ponte Vecchio></a></li>
-              <li><a href="#E">Badia a Settimo></a></li>
-            </ul>
-        </nav>
-  <p>
-  </br>
-  </br>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
 
-  </p>
-
-
-
-
-
-
-
-
-  <div class="center">
-  <div class="box">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-
-   Florence is one of the world most famous art capital in central Italy. Here is the birthplace of the European Renaissance.<br/>  Therefore, there are 40 museums and art galleries, more than 60 palaces, and numerous churches. Besides, one of the<br/>  five cathedrals of the world––Cattedrale di Santa Maria del Fiore (in English “Cathedral of Saint Mary of the Flower”<br/>usually called Florence Cathedral )</b> and world’s first art academy––<b>Academy of Fine arts of Florence</b> are also located here.
-
-   <br/>
-    <br/>
-   The weather in Florence is similar to San Francisco, just a little bit hotter.Summer is cool and winter is also not too cold.<br/> Therefore, many families in Florence do not have air conditioning. <br/>However, this year because of the global warming, the temperature in early June reached <b>40 degrees Celsius (104℉)</b>!
- </p>
-</div></div>
-  <h1 align="center">5 Memorable places in Florence</h1>
-
-
-  <div class="top">
-      <ul>
-        <li><a>Florence></a></li>
-        <li><a href="#A" >Florence cathedral></a></li>
-        <li><a href="#B">Academy of Fine arts of Florence></a></li>
-        <li><a href="#C">Flowing chocolate wall></a></li>
-        <li><a href="#D">Ponte Vecchio></a></li>
-        <li><a href="#E">Badia a Settimo></a></li>
-      </ul>
+  <div class="w3-bar w3-white w3-padding w3-card size" style="letter-spacing:4px;">
+    <a href="file:///Users/jinyuhuang/Desktop/CCA/semester3(2019.09.03-2019.12.13)/interactive%20docs/interactive1/index.html" class="w3-bar-item w3-button">Home</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#A" class="w3-bar-item w3-button">Florence Cathedral</a>
+      <a href="#B" class="w3-bar-item w3-button">Academy of Fine arts of Florence</a>
+      <a href="#C" class="w3-bar-item w3-button">Flowing Chocolate Wall</a>
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="material/background.jpg" alt="Florence overview" width="1600" height="800">
+  <div class="w3-display-middle w3-padding-large Florence">
+
+  <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <h1 class="w3-xxxlarge">Florence</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- Florence Cathedral -->
+  <a id=A> </a>
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="material/Florence Cathedral.jpg" class="w3-round w3-image" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Florence Cathedral</h1><br>
+      <h5 class="w3-center">Architect(s):Arnolfo di Cambio Filippo & Brunelleschi & Emilio De Fabris<br/>Completed‎ in ‎1436</h5>
+      <p class="w3-large">Florence Cathedral is one of the largest churches in Italy, and its dome is the largest brick dome ever.Brunelleschi designed the rhythm of the space of the big dome as if a piece of music. When it was completed, a musician from Netherlands was extremely touched by the beautiful sense of variation. Hence, he wrote an orchestral piece for it and played it at the ceremony. This Cathedral was built in 1296 and last<b> 175 years</b>! It is an iconic architect in early Renaissance. Until now, tourists from all over the world will still be amazed at it.<br/><br/>
+      <div class="purple">
+        <b>For more information, visit<a href="https://www.museumflorence.com/monuments/1-cathedral" target="_blank">
+          www.museumflorence.com</a></b></div>
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Academy of Fine arts of Florence -->
+  <a id=B> </a>
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Academy of Fine arts of Florence</h1><br>
+      <h5 class="w3-center">President:Luciano Modica<br/>Established‎ in ‎1563</h5>
+      <p class="w3-large">The Florentine Academy of Fine Arts is a product of the Renaissance and has had a tremendous impact on the Renaissance. The significance of this school is already not only a school. This school has existed as a witness to the development of world civilization and a landmark in art and education. The Academy of Fine arts of Florence has cultivated countless masters of painting and sculpture since its founding, among which are Leonardo Da Vinci, Michelangelo, Dante and Raffaele Santi...In addition, the world well-known statue of David from Michelangelo is also collected in the art gallery of the Academy of Fine Arts in Florence.<br/><br/>
+       <div class="purple">
+        <b>For more information, visit<a href="https://www.florenceacademyofart.com" target="_blank">
+          www.florenceacademyofart.com</a></b></p></div>
+
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+        <img src="material/Academy of Fine arts of Florence.jpg" class="w3-round w3-image" alt="Academy of Fine arts of Florence" style="width:100%">
+      </div>
+
+  <!-- Flowing Chocolate Wall -->
+  <a id=C> </a>
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+       <img src="material/Florence Cathedral.jpg" class="w3-round w3-image " alt="Table Setting" width="600" height="750">
+       <source src="material/Flowing Chocolate Wall.mp4" class="w3-round w3-image"type="video/mp4" alt="Table Setting" width="600" height="750">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">Flowing Chocolate Wall</h1><br>
+        <h5 class="w3-center">Founder: Silvano Venchi<br/> Founded in 1878, Turin, Italy</h5>
+        <p class="w3-large">Everyone knows Italy has the best handmade ice cream in the world. This store was founded by a famous chocolate brand called “Venchi” andit has a lot of chain store which located in many cities in Italy. If you come to Italy, I highly recommend you to visit here!In this store, you can not only taste one of the most delicious ice cream, but also see a marvelous and mouthwatering <b>flowing chocolate wall</b>!<br/><br/>
+          <div class="purple">
+          <b>For more information, visit<a href="https://us.venchi.com/stores/firenze-piazza-signoria-italy" target="_blank">
+            us.venchi.com</a></b></p></div>
+      </div>
     </div>
 
 
-
-  <h2>Florence Cathedral</h2>
-
-<a id=A> </a>
-  <p>
-  <div class="style2">
- <img src="material/Florence Cathedral.jpg"width="453"height="604.5" /></div>
-
-  </a>
-  </p>
-<!-- <this paragraph is end here> -->
-
-<a id=B> </a>
- <p>
-
-<div class="style3">
-<img src="material/Academy of Fine arts of Florence.jpg" width="453"height="604.5"/><center></div>
+    <!-- Ponte Vecchino -->
+    <div class="w3-row w3-padding-64" id="menu">
+      <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">Ponte Vecchino</h1><br>
+        <h5 class="w3-center">Width	32 metres (105 ft)<br/>Longest 30 metres (98 ft)</h5>
+        <p class="w3-large">  The existence of this bridge is a miracle. During World War II it was the only bridge across the Arno that the fleeing Germans did not destroy.There have been shops on Ponte Vecchio since the 13th century. Initially, there were all types of shops,including butchers and fishmongers and, later, tanners, whose "industrial waste" caused a pretty rank stench in the area. In 1593, Ferdinand I decreed that only goldsmiths and jewelers be allowed to have their shops on the bridge in order to improve the wellbeing of all, including their own as they walked over the bridge. As time goes by and the development of the economy, nowadays, most stores on Ponte Vecchino are famous brands and selling luxury goods such as Rolex.<br/><br/>
+       <div class="purple">
+        <b>For more information, visit<a href="https://www.visitflorence.com/florence-monuments/ponte-vecchio.html" target="_blank">
+          www.visitflorence.com</a></b></div>
+        </div>
+        </p>
 
 
+      <div class="w3-col l6 w3-padding-large">
+          <img src="material/Ponte Vecchino.jpg" class="w3-round w3-image" alt="Academy of Fine arts of Florence" style="width:100%">
+        </div>
+
+    <!-- Florence Cathedral -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+       <img src="material/IMG_7660.jpg" class="w3-round w3-image" alt="Badia a Settimo" width="600" height="700">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">Badia a Settimo</h1><br>
+        <h5 class="w3-center"> Was founded in 1004</h5>
+        <p class="w3-large">After visiting most of Florence’s famous scenery, we drove to an  monastery in the suburbs with an Italian pastor. The Badia a Settimo or Abbazia dei Santi Salvatore e Lorenzo a Settimo is a Cluniac Benedictine abbey in the comune of Scandicci, near Florence in Tuscany, Italy.That must be the most memorable part of the trip. When we walked out of the chapel,we witnessed the sunlight was reflected directly onto Jesus, which the pastor called “God’s beam of light”.<br/><br/>
+       <div class="purple">
+        <b>See a vedio to know the exterior of this monastery, visit <a href="https://www.youtube.com/watch?v=WyDyJGs4Nmw" target="_blank">
+          www.youtube.com/Badia a Settimo
+        </a></b></div>
+          </div>
+        </div></p>
 
 
- <br/>
-   <p class="information"><font size="3"><b>For more information, visit</b></font>
- <a href="https://www.florenceacademyofart.com" target="_self">
- www.florenceacademyofart.com</a></p>
- </div>
- </p>
- <!-- <this paragraph is end here> -->
 
 
-     <a id=C> </a>
-     <p>
-     <a>
-       <center><video width="604.5" height="453" controls="controls" autoplay="autoplay">
-     <source src="material/Flowing Chocolate Wall.mp4" type="video/mp4" /><center>
-     </video>
-
-     </a>
-    </p>
-     <!-- <this paragraph is end here> -->
-   <a id=D> </a>
-  <p>
-  <a href="https://www.visitflorence.com/florence-monuments/ponte-vecchio.html" target="_self">
-  <div class="two-column">
-  <center><img src="material/Ponte Vecchino.jpg" width="604.5"height="453"/><center></div>
-  </a>
-
-  </p>
-  <!-- <this paragraph is end here> -->
-
-   <a id=E> </a>
-   <p>
-   <a>
-   <div class="two-columnright">
-   <center><img src="material/IMG_7660.jpg" width="453"height="604.5"/><center></div>
-   </a>
-   <br/>
-
- </p>
-<br/>
-<br/>
-
-  </body>
-
+</body>
 </html>
