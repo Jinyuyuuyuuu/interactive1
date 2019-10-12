@@ -54,9 +54,9 @@ body {
 }
 
 /* distortion3 */
-@media (max-width: 600px) and (min-width: 500px)  {
+@media (max-width: 800px) and (min-width: 600px)  {
     body {
-        background: white;
+        background: orange;
     }
     #distortion3 {
         display: inline;
@@ -71,9 +71,9 @@ body {
     }
 }
 /* bear */
-@media (max-width: 500px)  {
+@media (max-width: 600px)  {
     body {
-        background: white;
+        background: orange;
     }
     #bear {
         display: inline;
