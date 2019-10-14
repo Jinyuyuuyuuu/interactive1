@@ -89,20 +89,7 @@ body {
 }
 
 
-/* print */
-@media print {
-    body {
-        background: white;
-    }
-    #print {
-        display: inline;
-        color: black;
-    }
-    #distortion0,
-    #distortion1,
-    #distortion2,
-    #distortion3,
-    #bear{
-        display: none;
-    }
-}
+
+.bear{
+
+        }

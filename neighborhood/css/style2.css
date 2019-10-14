@@ -13,3 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 .Florence{color:#AE00AE}
 
 .w3-display-middle{position:absolute;bottom:1%;right:30%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+
+.biggest{
+  margin-left: 15 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 80px;
+}
