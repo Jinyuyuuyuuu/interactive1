@@ -1,8 +1,30 @@
 html,body { cursor: url(material/cursor.ico),auto;}
-.Pink {
+.pink{
     width: 960px;
-    margin: 20px auto 20px auto;
-    font-size: 100px;
+    left:20px;
+    margin: 40px auto 10px auto;
+    font-size: 50px;
     font-family: 'Tangerine', cursive;
-    color: pink;
+    color: #FF3399;
     }
+
+a{color: #FFCCCC;}
+a:hover{color: #FFCCCC;}
+a:visited{color: #FFCCCC;}
+
+.links{
+    width: 960px;
+    left:20px;
+    margin: 20px auto 10px auto;
+    font-size: 20px;
+    font-family: 'Tangerine', cursive;
+    }
+
+.content{
+    width: 960px;
+    margin: 20px auto 10px auto;
+    font-size: 20px;
+    font-family: 'Tangerine', cursive;
+    color: #FF3399;
+
+         }
