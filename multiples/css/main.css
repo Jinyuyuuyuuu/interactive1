@@ -19,7 +19,7 @@ body {
     display: none;
 }
 /* distortion1 */
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (min-width: 1100px) and (max-width: 1200px) {
     body {
         background: orange;
     }
@@ -36,7 +36,7 @@ body {
     }
 }
 /* distortion2 */
-@media (max-width: 1000px) and (min-width: 800px) {
+@media (max-width: 1100px) and (min-width: 900px) {
     body {
         background: orange;
     }
@@ -54,7 +54,7 @@ body {
 }
 
 /* distortion3 */
-@media (max-width: 800px) and (min-width: 600px)  {
+@media (max-width: 900px) and (min-width: 600px)  {
     body {
         background: orange;
     }
