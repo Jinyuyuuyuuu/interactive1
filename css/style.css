@@ -5,7 +5,7 @@ body {
 
 .container {
   position: absolute;
-  left: 67%;
+  left: 70%;
   top: 10%;
   transform: translate(-50%, -50%);
   animation: speed-up 3s ease-in-out infinite;
