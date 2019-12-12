@@ -139,8 +139,8 @@ top:0%;
 100% {background: #dcffcc;}
 }
 #t2{
-  left:600%;
-  top:-360%;
+  left:560%;
+  top:-185%;
     background-color: #96f7d2;
     -webkit-animation: mythird 1.5s;
     animation-iteration-count: infinite;
@@ -156,8 +156,8 @@ top:0%;
 }
 
 #t3{
-  left:920%;
-  top:-300%;
+  left:880%;
+  top:-200%;
   background-color: #f5b5fc;
   -webkit-animation: myfourth 1.5s;
   animation-iteration-count: infinite;
@@ -308,17 +308,12 @@ ul.cards.transition li.card.card-1 {
   display: grid;
   float: left;
   max-width: 1000px;
-  grid-template-columns:200px 200px 200px 200px;
+  grid-template-columns:30% 30% 30% 30%;
   grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-gap: 200px 200px;
+  grid-gap: 20% 20%;
   }
 
-.chair{
-  width:140%;
-  height:180%;
-  border-radius: 100px;
-  background-color: #FFA488;
-}
+
 
 .top-round{
   width:30%;
@@ -1024,3 +1019,19 @@ span:nth-child(4) {
     color: #FF8260;
   }
 }
+/* mobile */
+@media (max-width: 375px) {
+  body{
+    -webkit-transform: scale(.3);
+  }
+  .grid {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 120%;
+    display: grid;
+    float: left;
+    max-width: 1000px;
+    grid-template-columns:40% 40% 40% 40%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-gap: 20% 20%;
+    }
