@@ -304,14 +304,14 @@ ul.cards.transition li.card.card-1 {
 /* Alphabet */
 .grid {
   position: relative;
-  margin-left: -15%;
+  margin-left: -10%;
   margin-top: 120%;
   display: grid;
   float: left;
-  max-width: 1200px;
+  max-width: 1000px;
   grid-template-columns:300px 300px 300px 300px;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-gap: 20% 20%;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-gap: 23% 23%;
   }
 
 
@@ -907,7 +907,7 @@ background-color: #FFA488;
   z-index: 100000;
   position: relative;
   border-radius: 100px;
-
+  background-color: #FFA488;
 }
 
 
@@ -945,6 +945,7 @@ background-color: #FFA488;
   z-index: 100000;
   position: relative;
   border-radius: 100px;
+    background-color: #FFA488;
 }
 #triY{
   width: 0;
@@ -963,6 +964,7 @@ background-color: #FFA488;
   position:absolute;
   top:60%;
   left:-1%;
+
 }
 #Y2{
   left:65%;
@@ -973,6 +975,7 @@ background-color: #FFA488;
   z-index: 100000;
   position: relative;
   border-radius: 100px;
+    background-color: #FFA488;
 }
 .triZ{
   width: 0;
@@ -987,6 +990,7 @@ background-color: #FFA488;
 #Z2{
   transform: rotate(180deg);
   left:65%;
+
 }
 .containerZ{
   height: 12.6vw;
@@ -994,6 +998,8 @@ background-color: #FFA488;
   z-index: 100000;
   position: relative;
   border-radius: 100px;
+  background-color: black;
+    background-color: #FFA488;
 }
 span:nth-child(1) {
   animation: blink 1s steps(1, start) 0.33s infinite;
